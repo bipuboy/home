@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 1rem 0;
     position: sticky;
@@ -34,45 +34,70 @@ nav ul li a {
 }
 
 .hero-section {
-    background: linear-gradient(to bottom right, #ff6600, #cc3300);
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
     color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 6rem 2rem;
-}
-
-.hero-content {
-    max-width: 900px;
-    margin: 0 auto;
+    padding: 2rem;
 }
 
 .hero-content h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.hero-content p {
-    font-size: 1.25rem;
-    margin-bottom: 1.5rem;
+.hero-content .hero-subtext {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
     line-height: 1.8;
-    font-style: italic;
+}
+
+.hero-content .highlight {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .cta-button {
-    display: inline-block;
-    background: #0073e6;
-    color: #fff;
-    padding: 0.75rem 1.5rem;
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
     border-radius: 25px;
-    transition: background 0.3s ease, transform 0.2s ease;
+    transition: all 0.3s ease;
+    font-weight: bold;
 }
 
-.cta-button:hover {
-    background: #005bb5;
-    transform: scale(1.1);
+.cta-button.primary {
+    background: #ff4500;
+    color: #fff;
+}
+
+.cta-button.primary:hover {
+    background: #e63e00;
+    transform: scale(1.05);
+}
+
+.cta-button.secondary {
+    background: #fff;
+    color: #333;
+    border: 2px solid #333;
+}
+
+.cta-button.secondary:hover {
+    background: #333;
+    color: #fff;
+    transform: scale(1.05);
 }
 
 section {
