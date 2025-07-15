@@ -1,0 +1,20 @@
+{
+  "name": "kepsla-ticketing-system",
+  "version": "1.0.0",
+  "description": "Comprehensive ticketing system for managing complaints and service requests",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm start",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": ["ticketing", "customer-support", "hotel-management", "complaint-system"],
+  "author": "KePSLA",
+  "license": "MIT"
+}
