@@ -1,0 +1,13 @@
+studentId,name,learningStyle,subject,date,grade,attendance,notes
+S1,Ananya Sharma,Visual,Math,2025-01-05,68,1,Struggled with word problems
+S1,Ananya Sharma,Visual,Math,2025-01-12,74,1,Improved after practice sheet
+S1,Ananya Sharma,Visual,Science,2025-01-05,72,1,Good understanding of diagrams
+S1,Ananya Sharma,Visual,Science,2025-01-12,78,1,Great lab work
+S1,Ananya Sharma,Visual,English,2025-01-05,65,0,Missed class due to cold
+S1,Ananya Sharma,Visual,English,2025-01-12,70,1,Reading speed improving
+S2,Arjun Mehta,Kinesthetic,Math,2025-01-05,60,1,Makes calculation slips
+S2,Arjun Mehta,Kinesthetic,Math,2025-01-12,69,1,Hands-on practice helped
+S2,Arjun Mehta,Kinesthetic,Science,2025-01-05,75,1,Enjoys experiments
+S2,Arjun Mehta,Kinesthetic,Science,2025-01-12,80,1,Great in lab activities
+S2,Arjun Mehta,Kinesthetic,English,2025-01-05,62,0,Needs vocabulary practice
+S2,Arjun Mehta,Kinesthetic,English,2025-01-12,68,1,Better after exercises
